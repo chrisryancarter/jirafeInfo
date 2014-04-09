@@ -1,0 +1,634 @@
+html, body { height: 100%; margin: 0; padding: 0;}
+
+#nav{
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: #fefef6;
+    width: 221px;
+    padding-left: 15px;
+}
+
+#nav h1{
+	font-family: 'Avenir Demi', sans-serif;	
+    font-size: 61px;
+    line-height: 61px;
+    color: #4bc9c5;
+    }
+
+
+#nav h3{
+	font-family: 'Avenir', sans-serif;	
+    font-size: 26px;
+    color: #6a6a6a;
+    }
+
+.lightgray{
+    color:#c2c2c2;
+	font-size: 30px;
+}
+
+.jiraLogo{
+	position: absolute;
+	left: 3px;
+	top: 21px;
+}
+
+#effective{
+	top: 510px;
+	left: 869px;
+	position:absolute;
+}
+
+#effective a{
+	font-family: 'Georgia', sans-serif;
+	color: #33cccc;
+	font-size: 18px;
+	z-index: 99;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+#roiSource{
+	top: 883px;
+	left: 1096px;
+	position: absolute;
+}
+
+#roiSource a{
+	font-family: 'Georgia', sans-serif;
+	color: #33cccc;
+	font-size: 18px;
+	z-index: 99;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+#infoGraphic{
+    width: 900px;
+    height: 6550px;
+    margin-left: 235px;
+    overflow-x: hidden;
+}
+
+.infoTitle{
+	font-family: 'Avenir Demi', sans-serif;
+	margin-left: 18px;
+	font-size: 65px;
+	position: absolute;
+	top: 24px;
+	left: 289px;
+	color: #33cccc;
+}
+
+#roiGraph{
+    position: absolute;
+    width: 579px;
+    height: 450px;
+    background-image: url('../img/graphSearch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+}
+
+#roiGraph img{
+    width:400px;
+    height: 325px;
+}
+
+#roiText{
+	top: 109px;
+	left: 865px;
+	width: 240px;
+	position: absolute;
+	font-family: 'Avenir';
+	color: #738189;
+	font-size: 32px;
+	line-height: 46px;   
+}
+
+#roiSub{
+	top: 415px;
+	left: 865px;
+    width: 240px;
+    position: absolute;
+    font-family: 'Avenir';
+    color: #9fb3be;
+    font-size: 18px;
+    line-height: 29px;    
+}
+
+#percentage{
+    position: absolute;
+	top: 741px;
+    left: 272px;
+    width: 900px;
+    font-family: 'Avenir Demi';
+    font-weight: 900;
+    color: #73ce50;
+    font-size: 249px;  
+}
+
+#percentSym{
+    position: absolute;
+	top: 832px;
+	left: 957px;
+    width: 900px;
+    font-family: 'Avenir Demi';
+    color: #73ce50;
+    font-size: 128px; 
+}
+
+
+#roiFigure{
+    position: absolute;
+	top: 578px;
+	left: 286px;
+    width: 900px;
+    position: absolute;
+    font-family: 'Avenir';
+    color: #738189;
+    font-size: 44px;  
+}
+
+.roi{
+	font-size: 165px;
+    font-family: 'Avenir Demi';
+}
+
+
+#whereText{
+	top: 1049px;
+	left: 359px;
+	width: 900px;
+	position: absolute;
+	font-family: 'Avenir';
+	color: #738189;
+	font-size: 36px;
+}
+
+.trial{
+	font-size: 40px;
+	margin-top:10px;
+}
+
+#whereGraph{
+	top: 1148px;
+	left: 231px;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    font-family: 'Avenir';
+    color: #738189;
+    font-size: 36px;  
+    background-image: url('../img/usageGraph.png');
+    background-repeat:no-repeat;
+}
+
+
+#whereSource{
+	top: 1129px;
+	left: 325px;
+	position: absolute;
+}
+
+#whereSource a{
+	font-family: 'Georgia', sans-serif;
+	color: #33cccc;
+	font-size: 18px;
+	z-index: 99;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+#moreText{
+	top: 1714px;
+    left: 274px;
+    width: 858px;
+    position: absolute;
+    font-family: 'Avenir';
+    color: #738189;
+    font-size: 36px;  
+    text-align: center;
+}
+
+
+#moreBoxes{
+	top: 1864px;
+    left: 274px;
+    width: 900px;
+    position: absolute;
+}
+
+
+#moreBoxes ul li{
+    width: 230px;
+	height: 176px;
+    float: left;
+    margin: 10px;
+    list-style-type: none;
+    font-family: 'Avenir';
+    color: #738189;
+    font-size: 25px;
+    line-height: 36px;
+    text-align:center;
+}
+
+
+#moreSource{
+	top: 1873px;
+	left: 288px;
+	position: absolute;
+}
+
+
+#moreSource a{
+	font-family: 'Georgia', sans-serif;
+	color: #33cccc;
+	font-size: 18px;
+	z-index: 99;
+	text-decoration: none;
+	font-style: italic;
+}
+
+
+
+#tipsText{
+	top: 2332px;
+	left: 238px;
+    width: 900px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir Demi', sans-serif;
+    font-size: 49px;
+    text-align: center;
+}
+
+#tipsSource{
+	top: 2999px;
+	left: 892px;
+	position: absolute;
+}
+
+#tipsSource a{
+	font-family: 'Georgia', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	z-index: 99;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#singleCTA{
+	top: 2450px;
+    left: 274px;
+    width: 900px;
+    position: absolute;    
+}
+
+#kissTitle{
+	top: 2447px;
+	left: 729px;
+    width: 900px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir Demi', sans-serif;
+    font-size: 36px;
+    line-height: 132px;
+}
+
+#ctaTitle{
+	top: 2774px;
+	left: 729px;
+    width: 900px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir Demi', sans-serif;
+    font-size: 36px;
+    line-height: 132px;
+}
+
+#singleTemplate{
+	position: absolute;
+	top: 5382px;
+	left: 680px;
+}
+
+#simpleSteps{
+	position: absolute;
+	top: 2535px;
+	left: 690px;
+	list-style-type: none;
+	width: 350px;
+}
+
+#tipsSub{
+	top: 2877px;
+    left: 727px;
+    width: 415px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#emailClient{
+	position: absolute;
+	top: 3196px;
+	left: 236px;
+	color: #fff;
+	}
+
+#simpleSteps li{
+	font-size: 18px;
+	color:#fff;
+	font-family: 'Avenir', sans-serif;
+	margin-bottom: 20px;
+	line-height: 27px;
+}
+
+#subjectTitle{
+	top: 3057px;
+	left: 324px;
+    width: 900px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir Demi', sans-serif;
+    font-size: 36px;
+    line-height: 132px;
+}
+
+#subjectSub{
+	top: 3153px;
+	left: 325px;
+    width: 800px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#sizeHeader{
+	font-family: 'Avenir Demi', sans-serif;
+	font-size: 230px;
+	color: #fff;
+	position: absolute;
+	top: 3747px;
+	left: 303px;
+}
+
+#mattersHeader{
+	font-family: 'Avenir', sans-serif;
+	font-size: 36px;
+	color: #fff;
+	position: absolute;
+	top: 3841px;
+	left: 776px;
+}
+
+#sizeMatters{
+	position: absolute;
+	top: 3996px;
+	left: 275px;
+	list-style-type: none;
+	width: 900px;
+}
+
+#sizeMatters li{
+	font-size: 17px;
+	color: #fff;
+	font-family: 'Avenir', sans-serif;
+	margin-bottom: 20px;
+	line-height: 27px;
+	float: left;
+	width: 217px;
+	padding-right: 37px;
+}
+
+#sizeMatters li img{
+	margin-left:32px;
+}
+
+#watchThe{
+	text-transform: uppercase;
+	position: absolute;
+	top: 4410px;
+	width:900px;
+	color:#fff;
+	font-family: 'Avenir', sans-serif;	
+	font-size: 40px;
+	letter-spacing: 10px;
+	left: 511px;
+
+}
+
+#widthTitle{
+	text-transform: uppercase;
+	position: absolute;
+	top: 4450px;
+	width: 900px;
+	color: #fff;
+	font-family: 'Avenir Demi', sans-serif;
+	letter-spacing: 40px;
+	font-size: 171px;
+	left: 293px;
+}
+
+#widthBorder{
+	width: 785px;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	height: 471px;
+	position: absolute;
+	top: 4410px;
+	left: 272px;
+}
+
+#widthText{
+	position: absolute;
+	top: 4650px;
+	width: 900px;
+	list-style-type: none;
+	margin-left: 42px;
+}
+
+#widthText li{
+	width: 300px;
+	font-family: 'Avenir', sans-serif;
+	font-size: 25px;
+	color:#fff;
+	float:left;
+	text-align: center;
+	line-height: 38px;
+	padding-left: 30px;
+}
+
+
+#bestText{
+	position: absolute;
+	top: 5354px;
+	width: 900px;
+	list-style-type: none;
+	left: 242px;
+}
+
+#bestText li{
+	width: 300px;
+	font-family: 'Avenir', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	/* float: left; */
+	text-align: center;
+	line-height: 38px;
+	padding-left: 30px;
+	padding-top: 58px;
+}
+
+#jirafeLang{
+	height: 300px;
+	width: 729px;
+	top: 5954px;
+	left: 303px;
+	position: absolute;
+	color: #fff;
+	font-family: 'Avenir';
+	font-size: 19px;
+	line-height: 27px;
+}
+
+.hidden{
+	display:none;
+}
+
+#bestTitle{
+	text-transform: uppercase;
+	position: absolute;
+	top: 4968px;
+	width: 900px;
+	color: #fff;
+	font-family: 'Avenir Demi', sans-serif;
+	letter-spacing: 40px;
+	font-size: 120px;
+	left: 469px;	
+}
+
+#designTitle{
+	text-transform: uppercase;
+	position: absolute;
+	top: 5076px;
+	width: 900px;
+	color: #fff;
+	font-family: 'Avenir Demi', sans-serif;
+	letter-spacing: 20px;
+	font-size: 120px;
+	left: 387px;
+}
+
+#practicesTitle{
+	text-transform: uppercase;
+	position: absolute;
+	top: 5188px;
+	width: 900px;
+	color: #fff;
+	font-family: 'Avenir Demi', sans-serif;
+	letter-spacing: 10px;
+	font-size: 120px;
+	left: 303px;
+}
+
+#jirafeLang a{
+	color: #fff;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:280px;
+	height:390px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/gray.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+#poweredBy{
+	margin-left: 121px;
+}
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url('https://jirafe.com//fonts/brandongrotesque-regular.eot');
+    src: url('https://jirafe.com//fonts/brandongrotesque-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://jirafe.com//fonts/brandongrotesque-regular.woff') format('woff'),
+         url('https://jirafe.com//fonts/brandongrotesque-regular.ttf') format('truetype'),
+         url('https://jirafe.com//fonts/brandongrotesque-regular.svg#brandonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Brandon Grotesque Bold";
+    src: url('https://jirafe.com//fonts/brandongrotesque-bold.eot');
+    src: url('https://jirafe.com//fonts/brandongrotesque-bold.eot?#iefix') format('embedded-opentype'),
+         url('https://jirafe.com//fonts/brandongrotesque-bold.woff') format('woff'),
+         url('https://jirafe.com//fonts/brandongrotesque-bold.ttf') format('truetype'),
+         url('https://jirafe.com//fonts/brandongrotesque-bold.svg#brandonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url('https://jirafe.com//fonts/avenirnextltpro-regular.eot');
+    src: url('https://jirafe.com//fonts/avenirnextltpro-regular.eot?#iefix') format('embedded-opentype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-regular.woff') format('woff'),
+         url('https://jirafe.com//fonts/avenirnextltpro-regular.ttf') format('truetype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-regular.svg#Avenir') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir Demi";
+    src: url('https://jirafe.com//fonts/avenirnextltpro-demi.eot');
+    src: url('https://jirafe.com//fonts/avenirnextltpro-demi.eot?#iefix') format('embedded-opentype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-demi.woff') format('woff'),
+         url('https://jirafe.com//fonts/avenirnextltpro-demi.ttf') format('truetype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-demi.svg#AvenirDemi') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir Italics";
+    src: url('https://jirafe.com//fonts/avenirnextltpro-italics.eot');
+    src: url('https://jirafe.com//fonts/avenirnextltpro-italics.eot?#iefix') format('embedded-opentype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-italics.woff') format('woff'),
+         url('https://jirafe.com//fonts/avenirnextltpro-italics.ttf') format('truetype'),
+         url('https://jirafe.com//fonts/avenirnextltpro-italics.svg#AvenirItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
